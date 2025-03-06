@@ -17,23 +17,24 @@
 #define PIN_SD_D0 12
 
 // Touch pad pins
-#define PIN_IIC_SCL 32
-#define PIN_IIC_SDA 33
-#define PIN_TOUCH_INT 21
-#define PIN_TOUCH_RES 25
+#define PIN_IIC_SCL 17
+#define PIN_IIC_SDA 18
+#define PIN_TOUCH_INT 16
+#define PIN_TOUCH_RES 21
 
 // Display pins
-#define PIN_LCD_POWER_ON -1
-#define ST7789_DRIVER
-#define TFT_RGB_ORDER TFT_BGR
-#define TFT_WIDTH 240
-#define TFT_HEIGHT 320
-#define TFT_INVERSION_OFF
-#define ESP32_DMA
-#define TFT_MOSI 13
-#define TFT_SCLK 14
-#define TFT_CS 15
-#define TFT_DC 2
-#define TFT_RST -1
-#define TFT_BL 27
-#define TOUCH_CS 33
+#define PIN_LCD_POWER_ON 15
+#define PIN_LCD_RES 5
+#define PIN_LCD_CS 6
+#define PIN_LCD_DC 7
+#define PIN_LCD_WR 8
+#define PIN_LCD_RD 9
+#define PIN_LCD_BL 38
+#define PIN_LCD_D0 39
+#define PIN_LCD_D1 40
+#define PIN_LCD_D2 41
+#define PIN_LCD_D3 42
+#define PIN_LCD_D4 45
+#define PIN_LCD_D5 46
+#define PIN_LCD_D6 47
+#define PIN_LCD_D7 48
