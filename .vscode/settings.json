@@ -1,0 +1,13 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "cstddef": "cpp",
+        "string": "cpp",
+        "optional": "cpp",
+        "limits": "cpp",
+        "memory": "cpp",
+        "new": "cpp",
+        "functional": "cpp",
+        "type_traits": "cpp"
+    }
+}
